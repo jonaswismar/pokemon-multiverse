@@ -172,9 +172,9 @@
     },
     {
       "id": "HEAL_LOCATION_SOUTHERN_ISLAND_EXTERIOR",
-      "map": "MAP_SOUTHERN_ISLAND_EXTERIOR",
-      "x": 15,
-      "y": 20,
+      "map": "MAP_SOUTHERN_ISLAND",
+      "x": 43,
+      "y": 55,
       "respawn_map": "MAP_SOUTHERN_ISLAND_EXTERIOR",
       "respawn_npc": "LOCALID_NONE",
       "respawn_x": 15,
@@ -349,6 +349,16 @@
       "y": 12,
       "respawn_map": "MAP_SIX_ISLAND_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_SIX_ISLAND_NURSE"
+    },
+    {
+      "id": "HEAL_LOCATION_SOUTHERN_ISLAND_EXTERIOR",
+      "map": "MAP_SOUTHERN_ISLAND_EXTERIOR",
+      "x": 43,
+      "y": 55,
+      "respawn_map": "MAP_SOUTHERN_ISLAND_EXTERIOR",
+      "respawn_npc": "LOCALID_NONE",
+      "respawn_x": 15,
+      "respawn_y": 20
     }
   ]
 }

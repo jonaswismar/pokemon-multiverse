@@ -3183,8 +3183,8 @@
     {
       "id": "LAYOUT_SOUTHERN_ISLAND_EXTERIOR",
       "name": "SouthernIsland_Exterior_Layout",
-      "width": 33,
-      "height": 30,
+      "width": 100,
+      "height": 70,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/SouthernIsland_Exterior/border.bin",
@@ -9603,6 +9603,17 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/MapFiller028/border.bin",
       "blockdata_filepath": "data/layouts/MapFiller028/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOUTHERN_ISLAND",
+      "name": "SouthernIsland_Layout",
+      "width": 100,
+      "height": 70,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/SouthernIsland/border.bin",
+      "blockdata_filepath": "data/layouts/SouthernIsland/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

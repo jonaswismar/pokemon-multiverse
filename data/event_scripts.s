@@ -1794,3 +1794,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/MapFiller025/scripts.inc"
 
 	.include "data/maps/MapFiller028/scripts.inc"
+
+	.include "data/maps/SouthernIsland/scripts.inc"

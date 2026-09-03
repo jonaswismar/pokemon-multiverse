@@ -12,28 +12,7 @@
   "allow_running": false,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": [
-    {
-      "map": "MAP_ROUTE109",
-      "offset": 0,
-      "direction": "left"
-    },
-    {
-      "map": "MAP_MAP_FILLER013",
-      "offset": 0,
-      "direction": "right"
-    },
-    {
-      "map": "MAP_ROUTE134",
-      "offset": -60,
-      "direction": "up"
-    },
-    {
-      "map": "MAP_ROUTE133",
-      "offset": 20,
-      "direction": "up"
-    }
-  ],
+  "connections": null,
   "object_events": [],
   "warp_events": [],
   "coord_events": [],
