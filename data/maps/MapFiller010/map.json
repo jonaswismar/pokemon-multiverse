@@ -1,0 +1,37 @@
+{
+  "id": "MAP_MAP_FILLER010",
+  "name": "MapFiller010",
+  "layout": "LAYOUT_MAP_FILLER010",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_MAP_FILLER",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_MAP_FILLER009",
+      "offset": 0,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_MAP_FILLER011",
+      "offset": 0,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_EVER_GRANDE_CITY",
+      "offset": 40,
+      "direction": "down"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_HOENN"
+}

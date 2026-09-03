@@ -3,7 +3,6 @@
   "name": "Route122",
   "layout": "LAYOUT_ROUTE122",
   "music": "MUS_ROUTE122",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_122",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -16,19 +15,24 @@
   "connections": [
     {
       "map": "MAP_ROUTE121",
-      "offset": -20,
+      "offset": 40,
       "direction": "up"
     },
     {
       "map": "MAP_ROUTE123",
-      "offset": -100,
+      "offset": -39,
       "direction": "down"
+    },
+    {
+      "map": "MAP_MAP_FILLER028",
+      "offset": 10,
+      "direction": "right"
     }
   ],
   "object_events": [],
   "warp_events": [
     {
-      "x": 22,
+      "x": 83,
       "y": 29,
       "elevation": 0,
       "dest_map": "MAP_MT_PYRE_1F",
@@ -36,5 +40,6 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

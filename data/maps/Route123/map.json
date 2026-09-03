@@ -3,7 +3,6 @@
   "name": "Route123",
   "layout": "LAYOUT_ROUTE123",
   "music": "MUS_ROUTE122",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_123",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -16,13 +15,18 @@
   "connections": [
     {
       "map": "MAP_ROUTE122",
-      "offset": 100,
+      "offset": 39,
       "direction": "up"
     },
     {
       "map": "MAP_ROUTE118",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_MAP_FILLER027",
+      "offset": 0,
+      "direction": "right"
     }
   ],
   "object_events": [
@@ -837,5 +841,6 @@
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

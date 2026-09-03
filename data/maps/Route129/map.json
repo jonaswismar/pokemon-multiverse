@@ -3,7 +3,6 @@
   "name": "Route129",
   "layout": "LAYOUT_ROUTE129",
   "music": "MUS_ROUTE119",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_129",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -28,6 +27,21 @@
       "map": "MAP_UNDERWATER_ROUTE129",
       "offset": 0,
       "direction": "dive"
+    },
+    {
+      "map": "MAP_MAP_FILLER015",
+      "offset": -40,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_MAP_FILLER016",
+      "offset": 60,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_MAP_FILLER018",
+      "offset": 0,
+      "direction": "right"
     }
   ],
   "object_events": [
@@ -99,5 +113,6 @@
   ],
   "warp_events": [],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

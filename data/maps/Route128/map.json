@@ -3,7 +3,6 @@
   "name": "Route128",
   "layout": "LAYOUT_ROUTE128",
   "music": "MUS_ROUTE120",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_128",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -33,6 +32,11 @@
       "map": "MAP_UNDERWATER_ROUTE128",
       "offset": 0,
       "direction": "dive"
+    },
+    {
+      "map": "MAP_MAP_FILLER018",
+      "offset": 80,
+      "direction": "down"
     }
   ],
   "object_events": [
@@ -197,5 +201,6 @@
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_128_HEART_SCALE_3"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

@@ -74,7 +74,8 @@
     "gMapGroup_IndoorFiveIslandRoute_Frlg",
     "gMapGroup_IndoorTwoIslandRoute_Frlg",
     "gMapGroup_IndoorSixIslandRoute_Frlg",
-    "gMapGroup_IndoorSevenIslandRoute_Frlg"
+    "gMapGroup_IndoorSevenIslandRoute_Frlg",
+    "gMapGroup_MapFiller"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -1160,5 +1161,35 @@
   ],
   "gMapGroup_IndoorSevenIslandRoute_Frlg": [
     "SevenIsland_SevaultCanyon_House_Frlg"
+  ],
+  "gMapGroup_MapFiller": [
+    "MapFiller001",
+    "MapFiller002",
+    "MapFiller003",
+    "MapFiller004",
+    "MapFiller005",
+    "MapFiller006",
+    "MapFiller007",
+    "MapFiller008",
+    "MapFiller009",
+    "MapFiller010",
+    "MapFiller011",
+    "MapFiller012",
+    "MapFiller013",
+    "MapFiller014",
+    "MapFiller015",
+    "MapFiller016",
+    "MapFiller017",
+    "MapFiller018",
+    "MapFiller019",
+    "MapFiller020",
+    "MapFiller021",
+    "MapFiller022",
+    "MapFiller023",
+    "MapFiller024",
+    "MapFiller025",
+    "MapFiller026",
+    "MapFiller027",
+    "MapFiller028"
   ]
 }

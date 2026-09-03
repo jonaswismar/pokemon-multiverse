@@ -3,7 +3,6 @@
   "name": "Route130",
   "layout": "LAYOUT_ROUTE130",
   "music": "MUS_ROUTE119",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_130",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -23,6 +22,16 @@
       "map": "MAP_ROUTE129",
       "offset": 0,
       "direction": "right"
+    },
+    {
+      "map": "MAP_MAP_FILLER014",
+      "offset": -60,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_MAP_FILLER015",
+      "offset": 40,
+      "direction": "down"
     }
   ],
   "object_events": [
@@ -81,5 +90,6 @@
   ],
   "warp_events": [],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

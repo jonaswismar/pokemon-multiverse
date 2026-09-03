@@ -1738,3 +1738,59 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/scripts/battle_frontier.inc"
 	.include "data/scripts/apricorn_tree.inc"
 	.include "data/scripts/wild_encounter.inc"
+
+	.include "data/maps/MapFiller001/scripts.inc"
+
+	.include "data/maps/MapFiller002/scripts.inc"
+
+	.include "data/maps/MapFiller003/scripts.inc"
+
+	.include "data/maps/MapFiller004/scripts.inc"
+
+	.include "data/maps/MapFiller005/scripts.inc"
+
+	.include "data/maps/MapFiller006/scripts.inc"
+
+	.include "data/maps/MapFiller007/scripts.inc"
+
+	.include "data/maps/MapFiller008/scripts.inc"
+
+	.include "data/maps/MapFiller010/scripts.inc"
+
+	.include "data/maps/MapFiller009/scripts.inc"
+
+	.include "data/maps/MapFiller011/scripts.inc"
+
+	.include "data/maps/MapFiller012/scripts.inc"
+
+	.include "data/maps/MapFiller013/scripts.inc"
+
+	.include "data/maps/MapFiller015/scripts.inc"
+
+	.include "data/maps/MapFiller014/scripts.inc"
+
+	.include "data/maps/MapFiller017/scripts.inc"
+
+	.include "data/maps/MapFiller016/scripts.inc"
+
+	.include "data/maps/MapFiller018/scripts.inc"
+
+	.include "data/maps/MapFiller019/scripts.inc"
+
+	.include "data/maps/MapFiller020/scripts.inc"
+
+	.include "data/maps/MapFiller021/scripts.inc"
+
+	.include "data/maps/MapFiller022/scripts.inc"
+
+	.include "data/maps/MapFiller023/scripts.inc"
+
+	.include "data/maps/MapFiller024/scripts.inc"
+
+	.include "data/maps/MapFiller026/scripts.inc"
+
+	.include "data/maps/MapFiller027/scripts.inc"
+
+	.include "data/maps/MapFiller025/scripts.inc"
+
+	.include "data/maps/MapFiller028/scripts.inc"
