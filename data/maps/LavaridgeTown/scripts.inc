@@ -404,3 +404,10 @@ LavaridgeTown_Text_HerbShopSign:
 	.string "POKéMON HERB SHOP\n"
 	.string "“Bitter taste--better cure!”$"
 
+LavaridgeTown_EventScript_RouteSignLavaridge::
+	msgbox LavaridgeTown_Text_RouteSignLavaridge, MSGBOX_SIGN
+	end
+
+LavaridgeTown_Text_RouteSignLavaridge:
+	.string "JAGGERED PASS\n"
+	.string "{RIGHT_ARROW} LAVARIDGE TOWN$"

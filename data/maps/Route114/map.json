@@ -24,14 +24,14 @@
       "direction": "right"
     },
     {
-      "map": "MAP_MAP_FILLER002",
-      "offset": 30,
-      "direction": "right"
-    },
-    {
       "map": "MAP_MAP_FILLER001",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_JAGGED_PASS",
+      "offset": 30,
+      "direction": "right"
     }
   ],
   "object_events": [

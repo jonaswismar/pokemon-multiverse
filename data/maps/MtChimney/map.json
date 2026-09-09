@@ -3,7 +3,6 @@
   "name": "MtChimney",
   "layout": "LAYOUT_MT_CHIMNEY",
   "music": "MUS_MT_CHIMNEY",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_MT_CHIMNEY",
   "requires_flash": false,
   "weather": "WEATHER_VOLCANIC_ASH",
@@ -13,13 +12,34 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": [
+    {
+      "map": "MAP_ROUTE112",
+      "offset": 0,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE113",
+      "offset": -10,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_LAVARIDGE_TOWN",
+      "offset": 0,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_JAGGED_PASS",
+      "offset": 0,
+      "direction": "left"
+    }
+  ],
   "object_events": [
     {
       "local_id": "LOCALID_MT_CHIMNEY_ARCHIE",
       "graphics_id": "OBJ_EVENT_GFX_ARCHIE",
-      "x": 24,
-      "y": 19,
+      "x": 22,
+      "y": 24,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -32,8 +52,8 @@
     {
       "local_id": "LOCALID_MT_CHIMNEY_MAXIE",
       "graphics_id": "OBJ_EVENT_GFX_MAXIE",
-      "x": 13,
-      "y": 6,
+      "x": 11,
+      "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -46,8 +66,8 @@
     {
       "local_id": "LOCALID_MT_CHIMNEY_TABITHA",
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 12,
-      "y": 11,
+      "x": 10,
+      "y": 16,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -59,8 +79,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 32,
-      "y": 5,
+      "x": 30,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -72,8 +92,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 28,
-      "y": 12,
+      "x": 26,
+      "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -85,8 +105,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 19,
-      "y": 39,
+      "x": 17,
+      "y": 44,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -98,8 +118,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 29,
-      "y": 5,
+      "x": 27,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -111,8 +131,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 31,
-      "y": 12,
+      "x": 29,
+      "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -124,8 +144,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_OLD_WOMAN",
-      "x": 19,
-      "y": 39,
+      "x": 17,
+      "y": 44,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -137,8 +157,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 22,
-      "y": 39,
+      "x": 20,
+      "y": 44,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -150,8 +170,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POOCHYENA",
-      "x": 23,
-      "y": 19,
+      "x": 21,
+      "y": 24,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_RUN_IN_PLACE_LEFT",
       "movement_range_x": 0,
@@ -163,8 +183,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POOCHYENA",
-      "x": 23,
-      "y": 18,
+      "x": 21,
+      "y": 23,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_DOWN",
       "movement_range_x": 0,
@@ -176,8 +196,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 23,
-      "y": 17,
+      "x": 21,
+      "y": 22,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -189,8 +209,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POOCHYENA",
-      "x": 23,
-      "y": 20,
+      "x": 21,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_UP",
       "movement_range_x": 0,
@@ -202,8 +222,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POOCHYENA",
-      "x": 22,
-      "y": 19,
+      "x": 20,
+      "y": 24,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_RIGHT",
       "movement_range_x": 0,
@@ -215,8 +235,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 23,
-      "y": 21,
+      "x": 21,
+      "y": 26,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -228,8 +248,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 21,
-      "y": 19,
+      "x": 19,
+      "y": 24,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -241,8 +261,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POOCHYENA",
-      "x": 30,
-      "y": 12,
+      "x": 28,
+      "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_LEFT",
       "movement_range_x": 0,
@@ -254,8 +274,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POOCHYENA",
-      "x": 29,
-      "y": 12,
+      "x": 27,
+      "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_RIGHT",
       "movement_range_x": 0,
@@ -267,8 +287,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POOCHYENA",
-      "x": 30,
-      "y": 5,
+      "x": 28,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_RIGHT",
       "movement_range_x": 0,
@@ -280,8 +300,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POOCHYENA",
-      "x": 31,
-      "y": 5,
+      "x": 29,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_LEFT",
       "movement_range_x": 0,
@@ -294,8 +314,8 @@
     {
       "local_id": "LOCALID_MT_CHIMNEY_MAGMA_GRUNT_2",
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 9,
-      "y": 16,
+      "x": 7,
+      "y": 21,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -307,8 +327,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POOCHYENA",
-      "x": 20,
-      "y": 39,
+      "x": 18,
+      "y": 44,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_RIGHT",
       "movement_range_x": 0,
@@ -320,8 +340,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POOCHYENA",
-      "x": 21,
-      "y": 39,
+      "x": 19,
+      "y": 44,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_LEFT",
       "movement_range_x": 0,
@@ -333,8 +353,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
-      "x": 16,
-      "y": 18,
+      "x": 14,
+      "y": 23,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_UP",
       "movement_range_x": 0,
@@ -346,8 +366,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
-      "x": 14,
-      "y": 7,
+      "x": 12,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_JOG_IN_PLACE_LEFT",
       "movement_range_x": 0,
@@ -359,8 +379,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
-      "x": 29,
-      "y": 7,
+      "x": 27,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_LEFT",
       "movement_range_x": 1,
@@ -372,8 +392,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
-      "x": 27,
-      "y": 17,
+      "x": 25,
+      "y": 22,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_RIGHT",
       "movement_range_x": 1,
@@ -386,8 +406,8 @@
     {
       "local_id": "LOCALID_MT_CHIMNEY_MAGMA_GRUNT_1",
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_F",
-      "x": 13,
-      "y": 16,
+      "x": 11,
+      "y": 21,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 1,
@@ -399,8 +419,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
-      "x": 7,
-      "y": 7,
+      "x": 5,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 1,
@@ -413,29 +433,29 @@
   ],
   "warp_events": [
     {
-      "x": 17,
-      "y": 36,
+      "x": 36,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_MT_CHIMNEY_CABLE_CAR_STATION",
       "dest_warp_id": "0"
     },
     {
-      "x": 18,
-      "y": 36,
+      "x": 37,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_MT_CHIMNEY_CABLE_CAR_STATION",
       "dest_warp_id": "1"
     },
     {
-      "x": 20,
-      "y": 41,
+      "x": 18,
+      "y": 46,
       "elevation": 3,
       "dest_map": "MAP_JAGGED_PASS",
       "dest_warp_id": "2"
     },
     {
-      "x": 21,
-      "y": 41,
+      "x": 19,
+      "y": 46,
       "elevation": 3,
       "dest_map": "MAP_JAGGED_PASS",
       "dest_warp_id": "3"
@@ -445,19 +465,20 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 14,
-      "y": 6,
+      "x": 12,
+      "y": 11,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "MtChimney_EventScript_MeteoriteMachine"
     },
     {
       "type": "sign",
-      "x": 24,
-      "y": 37,
+      "x": 44,
+      "y": 16,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "MtChimney_EventScript_RouteSign"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

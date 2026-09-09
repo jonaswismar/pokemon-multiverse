@@ -19,19 +19,14 @@
       "direction": "right"
     },
     {
-      "map": "MAP_ROUTE132",
-      "offset": 60,
-      "direction": "up"
-    },
-    {
-      "map": "MAP_ROUTE132",
-      "offset": 0,
-      "direction": "up"
-    },
-    {
       "map": "MAP_PACIFIDLOG_TOWN",
       "offset": 80,
       "direction": "up"
+    },
+    {
+      "map": "MAP_SOUTHERN_ISLAND",
+      "offset": 0,
+      "direction": "left"
     }
   ],
   "object_events": [],

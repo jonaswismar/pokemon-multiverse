@@ -22,16 +22,6 @@
       "map": "MAP_PACIFIDLOG_TOWN",
       "offset": 0,
       "direction": "right"
-    },
-    {
-      "map": "MAP_MAP_FILLER013",
-      "offset": -60,
-      "direction": "down"
-    },
-    {
-      "map": "MAP_MAP_FILLER013",
-      "offset": 0,
-      "direction": "down"
     }
   ],
   "object_events": [

@@ -27,6 +27,16 @@
       "map": "MAP_ROUTE111",
       "offset": 0,
       "direction": "right"
+    },
+    {
+      "map": "MAP_MT_CHIMNEY",
+      "offset": 10,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_JAGGED_PASS",
+      "offset": -20,
+      "direction": "down"
     }
   ],
   "object_events": [

@@ -131,8 +131,8 @@
     {
       "id": "HEAL_LOCATION_LAVARIDGE_TOWN",
       "map": "MAP_LAVARIDGE_TOWN",
-      "x": 49,
-      "y": 47,
+      "x": 39,
+      "y": 7,
       "respawn_map": "MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_LAVARIDGE_NURSE"
     },
@@ -172,7 +172,7 @@
     },
     {
       "id": "HEAL_LOCATION_SOUTHERN_ISLAND_EXTERIOR",
-      "map": "MAP_SOUTHERN_ISLAND",
+      "map": "MAP_SOUTHERN_ISLAND_EXTERIOR",
       "x": 43,
       "y": 55,
       "respawn_map": "MAP_SOUTHERN_ISLAND_EXTERIOR",
@@ -351,8 +351,8 @@
       "respawn_npc": "LOCALID_SIX_ISLAND_NURSE"
     },
     {
-      "id": "HEAL_LOCATION_SOUTHERN_ISLAND_EXTERIOR",
-      "map": "MAP_SOUTHERN_ISLAND_EXTERIOR",
+      "id": "HEAL_LOCATION_SOUTHERN_ISLAND",
+      "map": "MAP_SOUTHERN_ISLAND",
       "x": 43,
       "y": 55,
       "respawn_map": "MAP_SOUTHERN_ISLAND_EXTERIOR",
